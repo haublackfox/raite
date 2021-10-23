@@ -18,6 +18,7 @@ app.use(cors({
 }));
 
 //AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+//BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 
 const database = admin.database();
 const notesRef = database.ref('/notes');
