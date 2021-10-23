@@ -17,6 +17,7 @@ app.use(cors({
     origin: '*'
 }));
 
+//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
 const database = admin.database();
 const notesRef = database.ref('/notes');
